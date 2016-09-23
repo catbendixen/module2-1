@@ -1,0 +1,40 @@
+@charset "utf-8";
+/* CSS Document */
+/*///////////////////////////////////////MENU //////////////////////////////////////*/
+.nav ul {
+  list-style: none;
+  background-color: #66cc33;
+  text-align: center;
+  padding: 0;
+  margin: auto;
+}
+.nav li {
+  display: inline-block;
+  font-family: sans-serif;
+  font-size: 1.2em;
+  line-height: 100px;
+  height: 100px;
+}
+ 
+.nav a {
+  text-decoration: none;
+  color: #ffffff;
+  text-align:center; 
+}
+ 
+.nav a:hover {
+  background-color: #336600;
+}
+ 
+.nav a.active {
+  background-color: #0099cc;
+  color: #ffffff;
+  cursor: default;
+}
+.footer {
+    background-color: #0099cc;
+    color: #ffffff;
+    text-align: center;
+    margin: auto;
+    
+}
